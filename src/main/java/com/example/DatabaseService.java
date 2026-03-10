@@ -36,7 +36,7 @@ public class DatabaseService {
             // Create tables if they don't exist
             createTables();
             
-            logger.info("Database initialized successfully by default");
+            logger.info("Database initialized successfully by default...");
         } catch (Exception e) {
             logger.error("Failed to initialize database", e);
         }
